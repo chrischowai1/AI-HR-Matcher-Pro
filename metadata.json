@@ -1,0 +1,5 @@
+{
+  "name": "AI HR Matcher - 智能簡歷分析助手",
+  "description": "這是一個基於 AI 的招聘助手，能自動解析候選人簡歷 (CV) 並與職位描述 (JD) 進行匹配分析，提供分數、優缺點評估及面試建議。",
+  "requestFramePermissions": []
+}
