@@ -1,26 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI HR Matcher</title>
+    
+    <!-- 樣式與工具庫 -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
-<script type="importmap">
-{
-  "imports": {
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "react": "https://esm.sh/react@^19.2.3",
-    "@google/genai": "https://esm.sh/@google/genai@^1.35.0",
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0"
-  }
-}
-</script>
+    
+    <!-- ⚠️ 注意：移除了 importmap -->
 </head>
 <body class="bg-gray-50 text-gray-900 antialiased min-h-screen">
     <div id="root"></div>
+    
+    <!-- ✅ 這是唯一需要的入口，Vite 會從這裡開始把 React 注入進去 -->
+    <script type="module" src="/index.tsx"></script>
 </body>
 </html>
