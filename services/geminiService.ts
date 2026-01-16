@@ -29,7 +29,7 @@ export const analyzeCVMatch = async (jd: string, cvText: string): Promise<Analys
   `;
 
   const response = await ai.models.generateContent({
-    model: 'gemini-3-pro-preview',
+    model: 'gemini-3-flash-preview',
     contents: prompt,
     config: {
       systemInstruction,
